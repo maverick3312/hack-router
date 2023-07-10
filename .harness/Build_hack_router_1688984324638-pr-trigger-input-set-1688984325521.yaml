@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_hack_router_1688984324638-pr-trigger-input-set
+  identifier: Build_hack_router_1688984324638prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_hack_router_1688984324638
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
